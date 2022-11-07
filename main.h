@@ -14,7 +14,7 @@ typedef struct print
 	void (*f)(va_list list);
 } print;
 
-void sprintf(va_list list);
+void _sprintf(va_list list);
 
 
 
