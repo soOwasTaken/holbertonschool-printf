@@ -16,7 +16,7 @@ typedef struct print
 
 int spring_print(va_list list);
 int char_print(va_list list);
-int percent_print(char c);
+int percent_print(va_list list);
 int _putchar(char c);
 int _printf(const char *format, ...);
 
