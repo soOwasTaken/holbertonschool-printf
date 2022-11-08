@@ -11,8 +11,7 @@ int percent_print(va_list list)
 {
 (void)list;
 
-char c = '%';
-_putchar(c);
+_putchar('%');
 
 return (1);
 }
