@@ -14,7 +14,11 @@ typedef struct print
 	void (*f)(va_list list);
 } print;
 
-void _sprintf(va_list list);
+int spring_print(va_list list);
+int char_print(va_list list);
+int percent_print(char c);
+int _putchar(char c);
+int _printf(const char *format, ...);
 
 
 
