@@ -24,3 +24,9 @@ Creating our printf function
 
 
 # Authors
+
+Chris Bikoy
+
+Alexandre Mary
+
+Ricardo Kollo
