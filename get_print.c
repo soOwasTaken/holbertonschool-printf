@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * get_print - function to be called by our printf function
+ * get_print - function that selects the correct function to perform
  * @format: argument of our printf function
- * @prints: list of printing functions
+ * @prints: printing options list
  * @list: arguments of our printf function
  * Return: lenght of what will be printed
  *
@@ -50,3 +50,5 @@ int get_print(const char *format, print prints[], va_list list)
 	}
 	return (len);  /*return lenght of what have been printed*/
 }
+
+
