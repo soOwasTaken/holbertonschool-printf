@@ -11,15 +11,15 @@ int _printf(const char *format, ...);
 typedef struct print
 {
 	char *type;
-	void (*f)(va_list list);
+	int (*f)(va_list list);
 } print;
 
-int spring_print(va_list list);
+int string_print(va_list list);
 int char_print(va_list list);
 int percent_print(va_list list);
 int _putchar(char c);
 int _printf(const char *format, ...);
-
+int get_print(const char *format, print prints[], va_list list);
 
 
 #endif
