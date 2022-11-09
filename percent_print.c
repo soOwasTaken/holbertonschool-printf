@@ -9,9 +9,11 @@
  */
 int percent_print(va_list list)
 {
-(void)list;
+	if (list)
+	{
+	}
 
-_putchar('%');
+	_putchar('%');
+	return (1);
 
-return (1);
 }

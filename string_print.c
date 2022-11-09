@@ -1,22 +1,26 @@
 #include "main.h"
+
 /**
- * string_print - prints an entire string
- * @list: arguments in our printf function
+ * string_print - prints the entire string
+ * @list: printf arguments
  *
- * Return: size of what will be printed
+ * Return: size of what is printed
+ *
  */
+
 int string_print(va_list list)
 {
-	int i; /* the incrementation of i will give the size of string*/
-	char *s = va_arg(list, char *);
-	/*ptr to a char to get every char of the string*/
-	/*loop s[i] to putchar all char of string*/
-	i = 0;
-	while (s[i] != '\0')
+	int i;
+	char *str2;
+
+	str2 = va_arg(list, char *);
+
+	if (str2 == NULL)
 	{
-		_putchar(s[i]);
-		i++;
+		_printf("(null)");
+		return (6);
 	}
-	/*return size of have been printed*/
+	for (i = 0; str2[i] != '\0'; i++)
+		_putchar(str2[i]);
 	return (i);
 }

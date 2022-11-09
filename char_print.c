@@ -18,5 +18,3 @@ int char_print(va_list list)
 	/*the function returns the size of what it printed*/
 	return (1);
 }
-
-
