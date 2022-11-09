@@ -7,7 +7,7 @@ Creating our printf function
     This project is requested by Holberton School.
 
 
-Task
+# Task
 
     Write a function that produces output according to a format.
 
@@ -23,4 +23,4 @@ Task
     Create a man page for your function.
 
 
-Authors
+# Authors
