@@ -1,26 +1,33 @@
 # holbertonschool-printf
-Project group for Holberton School
 
-Creating our printf function
+    Project group for Holberton School
+
+#   Creating our printf function
 
     This repository includes our version of the printf function, the basic and main functions. Here we will apply the knowledge that we have acquired during the learning of the programming language C.
     This project is requested by Holberton School.
 
 
-Task
+#   Task
 
-    Write a function that produces output according to a format.
+0-  Write a function that produces output according to a format.
 
-    c
-    s
-    %
+-   c
+-   s
+-   %
 
-    Handle the following conversion specifiers:
+1-  Handle the following conversion specifiers:
 
-    d
-    i
+-   d
+-   i
 
-    Create a man page for your function.
+2-  Create a man page for your function.
 
 
-Authors
+#   Authors
+
+-   Chris Bikoy
+
+-   Alexandre Mary
+
+-   Ricardo Kollo
