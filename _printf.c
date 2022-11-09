@@ -8,19 +8,20 @@
 
 int _printf(const char *format, ...)
 {
-	int i = 0;
-	int j = strlen(format);
+va_list list;
+int count = -1;
 
-	while (i < j)
-	{
-		if (format[i] == '%')
-		{
-			i++;
-			/* get_print() */
-			break;
-		}
-		_putchar(format[i]);
-		i++;
-	}
-	return (j);
+print prints[] = {
+{"c", char_print},
+{"s", string_print},
+{"%", percent_print},
+{NULL, NULL}
+};
+if (format != NULL)
+{
+va_start(list, format);
+count = get_print(format, prints, list);
+va_end(list);
+}
+return (count);
 }
