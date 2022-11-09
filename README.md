@@ -1,7 +1,5 @@
 #   holbertonschool-printf
-
-    Projet group for HOLBERTON SCHOOL.
-
+Projet group for HOLBERTON SCHOOL.
 #   Creating our printf function
 This repository
 #   Task
