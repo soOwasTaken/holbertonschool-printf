@@ -3,12 +3,13 @@
 /**
  * get_print - function that selects the correct function to perform
  * @format: argument of our printf function
- *
+ * @prints: printing options list
+ * @list: arguments of our printf function
  * Return: lenght of what will be printed
  *
  */
 
-int (*get_print(char *format))(const char *format, print prints[], va_list)
+int get_print(const char *format, print prints[], va_list list)
 {
 	int i, k, len = 0;
 
@@ -23,7 +24,7 @@ int (*get_print(char *format))(const char *format, print prints[], va_list)
 			{
 				if (format[i + 1] == prints[k].type[0])
 				{
-					len = len + prints[k].f(list) /*add to size*/
+					len = len + prints[k].f(list); /*add to size*/
 					break;  /*only if we have %c, %s or %%   */
 				}
 				k++;
@@ -33,7 +34,7 @@ int (*get_print(char *format))(const char *format, print prints[], va_list)
 				if (format[i + 1] != '\0') /*if not %c, %% nor %s  */
 				{
 					_putchar(format[i]); /*print % + what follows*/
-					_putchar(format[i + 1];
+					_putchar(format[i + 1]);
 					len = len + 2; /*add 2 to lenghts because %+char */
 				}
 				else
@@ -49,6 +50,5 @@ int (*get_print(char *format))(const char *format, print prints[], va_list)
 	}
 	return (len);  /*return lenght of what have been printed*/
 }
-
 
 
