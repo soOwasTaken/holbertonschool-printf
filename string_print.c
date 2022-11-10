@@ -8,19 +8,13 @@
 int string_print(va_list list)
 {
 	int i; /* the incrementation of i will give the size of string*/
-	char *s;
+	char *s = va_arg(list, char *);
 	/*ptr to a char to get every char of the string*/
-	s = va_arg(list, char *);
-
-	if (s == NULL)
-	{
-		s = "(nil)";
-		return (5);
-	}
-
 	/*loop s[i] to putchar all char of string*/
 	i = 0;
-	while (s[i] != '\0')
+	if (s == NULL)
+		s = "(null)";
+	while (s[i])
 	{
 		_putchar(s[i]);
 		i++;
