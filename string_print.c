@@ -11,16 +11,17 @@
 int string_print(va_list list)
 {
 	int i;
-	char *str2;
+	char *str;  /*Declare a pointer to a string*/
 
-	str2 = va_arg(list, char *);
+	str = va_arg(list, char *);  /*Initialize pointer to each argument of list*/
 
-	if (str2 == NULL)
+	if (str == NULL)
 	{
-		_printf("(null)");
-		return (6);
+		_printf("(null)");  /*return value if no argument*/
+		return (6);   /*size of "(null)" */
 	}
-	for (i = 0; str2[i] != '\0'; i++)
-		_putchar(str2[i]);
-	return (i);
+	for (i = 0; str[i] != '\0'; i++)
+		_putchar(str[i]);  /*loop until the last argument and print each one */
+	return (i);  /*return the number of iteration*/
+			/*which equals the number of characters*/
 }
