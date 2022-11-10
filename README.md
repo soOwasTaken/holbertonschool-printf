@@ -46,9 +46,13 @@ cd holbertonschool-printf
 make your own main.c
 ```
 ##### usage format :
-    _printf(const char *format, ...);
+```c
+_printf(const char *format, ...);
+```
 ##### compile using :
-    gcc -Wall -Werror -Wextra -pedantic -std=gnu89 -Wno-format *.c
+```c
+gcc -Wall -Werror -Wextra -pedantic -std=gnu89 -Wno-format *.c
+```
 ##### run your program:
     ./a.out
 ##   Flowchart
