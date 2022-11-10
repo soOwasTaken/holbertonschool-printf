@@ -22,13 +22,13 @@ Chris has 4 Lamborghinis.
 
 ## Commands
 
-| Command     | Description                                                                                                            | Example                  |Output|
-|-------------|------------------------------------------------------------------------------------------------------------------------|--------------------------|
-| `%c`     | Print a single  **c**haracter   | _printf("%c", 'A')|        A|
-| `%s`      | Print a **s**tring of characters  |  _printf(%s, "Holberton")  | Holberton|
-| `%%`  | Print a percent sign (\% also works)    |  _printf("%%")  | %
-| `%d`    | Print a decimal (base 10) number` | _printf("%d", -7) |-7|
-| `%i`      | Print an integer in base 10  | _printf("%i", 7) | 7 |
+| Command     | Description                                                                                                            | Example                  | Output   |
+|-------------|------------------------------------------------------------------------------------------------------------------------|--------------------------|----------|
+| `%c`        | Print a single  **c**haracter                                                                                          | _printf("%c", 'A')       | A        |
+| `%s`        | Print a **s**tring of characters                                                                                       | _printf(%s, "Holberton") | Holberton|
+| `%%`        | Print a percent sign (\% also works)                                                                                   | _printf("%%")            | %        |
+| `%d`        | Print a decimal (base 10) number`                                                                                      | _printf("%d", -7)        |-7        |
+| `%i`        | Print an integer in base 10                                                                                            | _printf("%i", 7)         | 7        |
 
 ## Man page
     man ./man_3_printf
