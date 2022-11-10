@@ -6,7 +6,6 @@
 #include <string.h>
 #include <stdarg.h>
 
-int _printf(const char *format, ...);
 
 
 /**
@@ -23,6 +22,7 @@ typedef struct print
 } print;
 
 int string_print(va_list list);
+int decint_print(va_list list);
 int char_print(va_list list);
 int percent_print(va_list list);
 int _putchar(char c);

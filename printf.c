@@ -15,7 +15,13 @@ int _printf(const char *format, ...)
 	{"c", char_print},
 	{"s", string_print},
 	{"%", percent_print},
+<<<<<<< HEAD
 	{NULL, NULL} /*declare a list of prints options, used by get_print*/
+=======
+	{"d", decint_print},
+	{"i", decint_print},
+	{NULL, NULL}
+>>>>>>> Ricardo
 	};
 
 	if (format != NULL) /*intrusctions to do only if there are arguments*/
