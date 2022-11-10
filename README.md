@@ -18,8 +18,10 @@ This project is requested by Holberton School.
 
 2-  Create a man page for your function.
 
+#   Flowchart
 ![alt text](flowchart.png)
 
+#   Exemple
 <details>
   <summary>Exemple of how flowchart work</summary>
   
