@@ -20,7 +20,7 @@ This project is requested by Holberton School.
 
 ![alt text](flowchart.png)
 Exemple of how the flowchart is working.
->![Alt text](gif-flowchart.gif)
+>! ![Alt text](gif-flowchart.gif)
 
 
 #   Authors
