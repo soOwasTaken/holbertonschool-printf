@@ -9,20 +9,20 @@
 int _printf(const char *format, ...)
 {
 	va_list list;
-	int count = -1;
+	int length = -1; /*Initialize the length to -1 (error value) */
 
 	print prints[] = {
 	{"c", char_print},
 	{"s", string_print},
 	{"%", percent_print},
-	{NULL, NULL}
+	{NULL, NULL} /*declare a list of prints options, used by get_print*/
 	};
 
-	if (format != NULL)
+	if (format != NULL) /*intrusctions to do only if there are arguments*/
 	{
 		va_start(list, format);
-		count = get_print(format, prints, list);
+		length = get_print(format, prints, list); /*assign size of chars to length*/
 		va_end(list);
 	}
-	return (count);
+	return (length); /*if no argument return error value, else return size*/
 }
