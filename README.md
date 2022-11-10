@@ -21,9 +21,9 @@ This project is requested by Holberton School.
 #   Flowchart
 ![alt text](flowchart.png)
 
-#   Exemple
+#   Exemple of how the flowchart work
 <details>
-  <summary>Exemple of how flowchart work</summary>
+  <summary>Click here to see a explaining GIF.</summary>
   
 ![Alt text](gif-flowchart.gif)
   
