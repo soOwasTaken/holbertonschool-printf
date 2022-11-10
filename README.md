@@ -13,11 +13,11 @@ This project is requested by Holberton School.
 
 ## Quick Example
 ```c
-_printf("%s has %d lambo's!.", "Chris", 2);
+_printf("%s has %d Lamborghinis.", "Chris", 2);
 ```
 #### Return :
 ```
-Chris has 4 Lamborghinis.
+Chris has 2 Lamborghinis.
 ```
 
 ## Commands
