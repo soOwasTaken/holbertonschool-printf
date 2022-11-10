@@ -19,7 +19,8 @@ This project is requested by Holberton School.
 2-  Create a man page for your function.
 
 ![alt text](flowchart.png)
->! Exemple of how the flowchart is working.[Alt text](gif-flowchart.gif)
+Exemple of how the flowchart is working.
+>![Alt text](gif-flowchart.gif)
 
 
 #   Authors
