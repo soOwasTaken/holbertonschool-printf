@@ -40,9 +40,11 @@ Chris has 4 Lamborghinis.
 
 ## Usage
 ##### Clone the repository
-    git clone https://github.com/soOwasTaken/holbertonschool-printf.git
-	cd holbertonschool-printf
-	 make your own main.c
+```c
+git clone https://github.com/soOwasTaken/holbertonschool-printf.git
+cd holbertonschool-printf
+make your own main.c
+```
 ##### usage format :
     _printf(const char *format, ...);
 ##### compile using :
