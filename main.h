@@ -22,8 +22,7 @@ typedef struct print
 } print;
 
 int string_print(va_list list);
-int decimal_print(va_list list);
-int integer_print(va_list list);
+int decint_print(va_list list);
 int char_print(va_list list);
 int percent_print(va_list list);
 int _putchar(char c);
