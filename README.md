@@ -18,8 +18,8 @@ This project is requested by Holberton School.
 
 2-  Create a man page for your function.
 
-![alt text](flowchart.png "Logo Title Text 1")
-![Alt text](gif-flowchart.gif) / ![](gif-flowchart.gif)
+![alt text](flowchart.png)
+![Alt text](gif-flowchart.gif)
 
 
 #   Authors
