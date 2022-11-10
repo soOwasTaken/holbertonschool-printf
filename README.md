@@ -15,7 +15,7 @@ This project is requested by Holberton School.
 ```c
 _printf("%s has %d lambo's!.", "Chris", 2);
 ```
-####Return :
+#### Return :
 ```
 Chris has 4 Lamborghinis.
 ```
