@@ -20,27 +20,27 @@ int get_print(const char *format, print prints[], va_list list)
 			if (format[i + 1] == '\0') /*check what follows '%'*/
 				return (-1); /*error*/
 			k = 0;
-			while (prints[k].type != NULL) /*check if %c, %s or %% */
+			while (prints[k].type != NULL) /*check if %c, %s, %%, %d or %i */
 			{
 				if (format[i + 1] == prints[k].type[0])
 				{
 					len = len + prints[k].f(list); /*add to size*/
-					break;  /*only if we have %c, %s or %%   */
+					break;  /*only if we have %c, %s, %%, %d or %i   */
 				}
 				k++;
 			}
 			if (prints[k].type == NULL && format[i + 1] != ' ')
 			{
-				if (format[i + 1] != '\0') /*if not %c, %% nor %s  */
+				if (format[i + 1] != '\0') /*if not %c, %%, %i, %d nor %s  */
 				{
-					_putchar(format[i]); /*print % + what follows*/
+					_putchar(format[i]); /*print '%' + what follows*/
 					_putchar(format[i + 1]);
-					len = len + 2; /*add 2 to lenghts because %+char */
+					len = len + 2; /*add 2 to lenghts because '%'+'char' */
 				}
 				else
 					return (-1); /*error*/
 			}
-			i++; /*continue if % + space*/
+			i++; /*continue if '%' + 'space'*/
 		}
 		else
 		{
