@@ -35,15 +35,15 @@ Chris has 2 Lamborghinis.
 ## Requirements
 
 >All our  files were compiled on Ubuntu 20.04 LTS.
-> Require GCC installed.
-> main.h and all the fonctions in it.
+> Requiring GCC installed.
+> A header file main.h with all the fonctions prototypes and all structures in it.
 
 ## Usage
 ##### Clone the repository
 ```c
 git clone https://github.com/soOwasTaken/holbertonschool-printf.git
 cd holbertonschool-printf
-make your own main.c
+make main.c file in order to do tests
 ```
 ##### usage format :
 ```c
