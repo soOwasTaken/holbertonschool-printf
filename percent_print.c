@@ -9,6 +9,7 @@
  */
 int percent_print(va_list list)
 {
+	/*condition with empty body, to prevent 'unused parameter' error*/
 	if (list)
 	{
 	}
