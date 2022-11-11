@@ -10,5 +10,5 @@
  */
 int _putchar(char c)
 {
-	return (write(1, &c, 1));
+	return (write(1, &c, 1)); /* returns the number of bytes actually written*/
 }
