@@ -42,7 +42,7 @@ _printf("Integer: %d", integer); (or use "%i" for print integer, depends of the 
 .printf
 
 .SH BUGS
-If there is a bug, report to @holbertonstudents.com or @holbertonstudents.com or 5658@holbertonstudents.com or 5767@holbertonstudents.com or 5660@holbertonstudents.com
+If there is a bug, report to 5658@holbertonstudents.com or 5767@holbertonstudents.com or 5660@holbertonstudents.com
 
 .SH AUTHOR
 Alexandre Mary, Chris Bikoy and Ricardo Kollo - Students at Holberton School Lille.
