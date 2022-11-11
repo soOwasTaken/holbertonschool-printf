@@ -60,7 +60,7 @@ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 -Wno-format *.c
 
 ##   Exemple of how the flowchart work
 <details>
-  <summary>Click here to see a explaining GIF.</summary>
+  <summary>Click here to see an explaining GIF.</summary>
   
 ![Alt text](gif-flowchart.gif)
   
