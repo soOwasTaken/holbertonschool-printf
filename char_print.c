@@ -12,7 +12,7 @@ int char_print(va_list list)
 	/*Declare a char that we will be the argument in printf*/
 	char c = va_arg(list, int);
 
-	/*print this argument*/
+	/*print that argument*/
 	_putchar(c);
 
 	/*the function returns the size of what it printed*/
